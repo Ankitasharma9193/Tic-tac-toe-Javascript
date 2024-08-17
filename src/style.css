@@ -1,0 +1,20 @@
+.cell{
+    border: 3px solid purple;
+    height:60px;
+    width: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cell_container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 20px;
+    margin: auto;
+
+}
+
+.game__container{
+    text-align: center;
+}
